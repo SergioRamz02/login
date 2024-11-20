@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh; 
+    align-items: center;
+    background: Blue;
+    font-size: 12pt;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.login-container{
+    background-color: white;
+    padding: 2%;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    color: darkblue;
+    text-align: center;
+}
+
+input{
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 25vw;
+    height: 3vh;
+}
